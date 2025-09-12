@@ -1,0 +1,144 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  color: var(--dark);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 40px;
+}
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0px;
+  padding: 10px 0px;
+  border: 2px solid red;
+}
+section {
+  padding: 25px;
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #9A9A9A;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+}
+#cta-btn {
+  display: flex;
+  gap: 10px;
+}
+a {
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  border: 1px solid #9A9A9A;
+  border-radius: 10px;
+}
+h3, h1{
+  margin: 0;
+}
+#calculator {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#utme-container {
+  width: 100%;
+}
+input {
+  width: 95%;
+  height: 35px;
+  font-size: 15px;
+  padding: 0px 10px;
+  border: 1px solid #9A9A9A;
+  border-radius: 6px;
+}
+.olevel {
+  width: 100%;
+  margin: 5px 0px;
+}
+select {
+  height: 40px;
+  width: 100%;
+  padding: 0px 8px;
+  font-size: 15px;
+  border: 1px solid #9A9A9A;
+  border-radius: 6px;
+}
+#calculate {
+  width: 50%;
+  height: 40px;
+  margin-top: 14px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid #9A9A9A;
+  border-radius: 6px;
+  background: orange;
+}
+#calculate:hover {
+  background: #FFC368;
+}
+#score-container {
+  height: 85px;
+  display: flex;
+  min-width: 200px;
+  max-width: 350px;
+  justify-items: center;
+  margin: 20px 0px;
+}
+#remark-wrapper {
+  padding: 0px 8px;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  border: 2px solid #9A9A9A;
+  border-right: none;
+  border-radius: 15px 0px 0px 15px;
+}
+#remark {
+  margin: 0px;
+}
+#score-wrapper {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-wrap: nowrap;
+  border: 2px solid #9A9A9A;
+  border-radius: 0px 15px 15px 0px;
+}
+#score {
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0px;
+  color: orange;
+}
+
+#moniepoint {
+  width: 200px;
+  margin-top: 20px;
+}
+#acct-no {
+  font-size: 30px;
+  font-weight: bold;
+}
+#acct-btn {
+  display: flex;
+  gap: 15px;
+}
+#acct-btn button {
+  background: #F6F6F6;
+  padding: 5px 10px;
+  border: 1px solid #9A9A9A;
+  border-radius: 10px;
+}

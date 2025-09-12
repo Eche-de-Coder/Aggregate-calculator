@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>HTML</title>
+     <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+      <section>
+        <h1>
+          <b>
+            <span style="color: orange;">UN</span><span style="color: #9A9A9A;">IZ</span><span style="color: blue;">IK</span> 2025 / 2026
+          </b>
+        </h1>
+        <h1><b>Aggregate Calculator</b></h1>
+        <p>find your aggregate easily</p>
+        <div id="cta-btn">
+          <a href="#acct-section">support us</a>
+          <a href="#formula">how its done</a>
+        </div>
+      </section>
+    
+    <section>
+        <div id="calculator">
+          <div id="utme-container">
+            <h3>UTME / JAMB Score</h3>
+            <input type="number" id="utme" placeholder="input jamb score"/>
+          </div>
+          
+          <div class="olevel">
+            <h3>1st O'level :</h3>
+            <select id="olevel1">
+               <option selected disabled>select grade</option>
+               <option value="90">A1</option>
+               <option value="80">B2</option>
+               <option value="70">B3</option>
+               <option value="60">C4</option>
+               <option value="55">C5</option>
+               <option value="50">C6</option>
+               <option value="">D7</option>
+               <option value="">E8</option>
+               <option value="0">F9</option>
+            </select>
+          </div>
+          <div class="olevel">
+            <h3>2nd O'level :</h3>
+            <select id="olevel2">
+               <option selected disabled>select grade</option>
+               <option value="90">A1</option>
+               <option value="80">B2</option>
+               <option value="70">B3</option>
+               <option value="60">C4</option>
+               <option value="55">C5</option>
+               <option value="50">C6</option>
+               <option value="">D7</option>
+               <option value="">E8</option>
+               <option value="0">F9</option>
+            </select>
+          </div>
+          <div class="olevel">
+            <h3>3rd O'level :</h3>
+            <select id="olevel3">
+              <option selected disabled>select grade</option>
+              <option value="90">A1</option>
+              <option value="80">B2</option>
+              <option value="70">B3</option>
+              <option value="60">C4</option>
+              <option value="55">C5</option>
+              <option value="50">C6</option>
+              <option value="">D7</option>
+              <option value="">E8</option>
+              <option value="0">F9</option>
+            </select>
+          </div>
+          <div class="olevel">
+            <h3>4th O'level :</h3>
+            <select id="olevel4">
+               <option selected disabled>select grade</option>
+               <option value="90">A1</option>
+               <option value="80">B2</option>
+               <option value="70">B3</option>
+               <option value="60">C4</option>
+               <option value="55">C5</option>
+               <option value="50">C6</option>
+               <option value="">D7</option>
+               <option value="">E8</option>
+               <option value="0">F9</option>
+            </select>
+          </div>
+          <div class="olevel">
+            <h3>No. of sittings :</h3>
+            <select id="sitting">
+              <option selected disabled>select no. of sittings</option>
+              <option value="1">1</option>
+              <option value="0">more than one</option>
+            </select>
+          </div>
+          <button onclick="calculate()" id="calculate">calculate</button>
+          <div id="score-container" class="hidden">
+            <div id="remark-wrapper">
+              <p id="remark"></p>
+            </div>
+            <div id="score-wrapper">
+              <small style="margin: 0px;">your score :</small>
+              <p id="score"></p>
+            </div>
+          </div>
+        </div>
+    </section>
+    
+      <section id="formula">
+        <h1>How its done</h1>
+        <div>
+          <p><strong>In order to ensure transparency in the 2025/2026 admission exercise the following calculation formula will be used for the exercise:</strong></p>
+          <h4>UTME CANDIDATES:</h4>
+          <p>Candidates will be screened based on their UTME scores and O'level results for the four subjects taken in UTME</p>
+          <p>The following considerations will apply:</p>
+          <p><strong>A. RATIO :</strong></p>
+          <p>The ratio will be 70% UTME score and 30% O'level subject score</p>
+          <p><strong>B. RANKING OF O'LEVEL RESULTS SCORES :</strong></p>
+          <p>O'level results will be ranked as given below:</p>
+          <p>A1=90, B2=80, B3=70, C4=60, C5=55, C6=50, D7=40, E8=30 and F9=0, Awaiting Result (AR)=0</p>
+          <p>for each candidate, the O'level subjects used will be the subjects the candidate sat for in UTME.</p>
+          <p>E.g for a candidate who sat for English, Biology, Physics and Chemistry in UTME,</p>
+          <p>the grades obtained in candidate O'level results in these subjects will be used to calculate the O'level points obtained.</p>
+          <p><strong>C. BONUS :</strong></p>
+          <p>A candidate who credited his four O'level subjects in a single sitting will get a bonus of 10 points (i.e Bonus=10),</p>
+          <p>A candidate who credited his four O'level subjects in two sittings will get no credit (i.e Bonus =0).</p>
+          <p><strong>D. CALCULATIONS :</strong></p>
+          <p>Final score = (UTME score*0.7) + (O'level Score + Bonus)*0.3</p>
+        </div>
+      </section>
+      
+      <section id="acct-section">
+        <h3>Grease the developers</h3>
+        <img id="moniepoint" src="moniepoint.jpg" alt="moniepoint logo">
+        <h1 id="acct-no"><b>8022839391</b></h1>
+        <div id="acct-btn">
+          <button id="copyBtn">copy</button>
+          <button id="screenshotBtn">chakam</button>
+        </div>
+      </section>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+  </body>
+</html>
