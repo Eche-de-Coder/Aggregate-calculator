@@ -16,9 +16,9 @@ function calculate() {
     
   if (finalScore >= 0 && finalScore <= 19) comment = "Bro, you even write name? 🤦‍♂️";
    else if (finalScore <= 39) 
-    comment = "Paper look empty like desert 🌵";
+    comment = "u sure say u write waec 🤔";
    else if (finalScore <= 59) 
-    comment = "You try small, but brain still on holiday 🏖️";
+    comment = "You try small 🥹";
    else if (finalScore <= 79) 
     comment = "Hmm… teacher cry small 😢";
    else if (finalScore <= 99) 
@@ -38,9 +38,9 @@ function calculate() {
    else if (finalScore <= 239) 
     comment = "Not bad… but brain still need gym 💪🧠";
    else if (finalScore <= 259) 
-    comment = "Ehn! You sabi small, but pride go kill you 😎";
+    comment = "Ehn! You sabi small, but pride go kill you 😏";
    else if (finalScore <= 279) 
-    comment = "Teacher surprise say you even try 🤯";
+    comment = "Teacher surprise say you even try 🥲";
    else if (finalScore <= 299) 
     comment = "You don dey show pepper 🌶️";
    else if (finalScore <= 319) 
@@ -48,13 +48,11 @@ function calculate() {
    else if (finalScore <= 339) 
     comment = "Big brain energy, no be beans 🫘";
    else if (finalScore <= 359) 
-    comment = "Omooo, you sabi pass village chief 📜";
+    comment = "Omooo, village people no fit touch you 😌";
    else if (finalScore <= 379) 
     comment = "Na genius wey no dey bath 🧼😂";
-   else if (finalScore <= 399) 
-    comment = "Einstein small pikin 👶🧠";
-   else if (finalScore === 400) 
-    comment = "Impossible. You use cheat code abi? 🎮👀";
+   else if (finalScore <= 400) 
+    comment = "Ahh bossu! Na ur papa set the exam 😂";
    else 
     comment = "Invalid score 🤷"; // if out of range
 
