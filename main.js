@@ -8,7 +8,7 @@ function calculate() {
   let score = document.getElementById('score');
   let remark = document.getElementById('remark');
   let sitting = document.getElementById('sitting');
-  let bonus = (sitting.value === "1" && olevel1 === 50 && olevel2 === 50 && olevel3 === 50 && olevel4 === 50) ? 10 : 0;
+  let bonus = (sitting.value === "1" && olevel1 >= 50 && olevel2 >= 50 && olevel3 >= 50 && olevel4 >= 50) ? 10 : 0;
   let comment = '';
   
   let finalScore = (utme * 0.7) + ((totalolevel + bonus) * 0.3);
